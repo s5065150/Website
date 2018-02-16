@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<title>Talbot Martial Arts Academy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+<!-- Sidebar on click +Button >
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Close</a> <!Needed or else there is no artilce 1 button. Don't know why111111111
+  <a href="#" class="w3-bar-item w3-button">Article 1</a>
+  <a href="#" class="w3-bar-item w3-button">Article 2</a>
+  <a href="#" class="w3-bar-item w3-button">Article 3</a>
+</nav-->
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="framework.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#bestsellers" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Best Sellers</a>
+  <a href="#uniforms" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Uniforms</a>
+  <a href="#sparing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Sparing</a>
+  <a href="#accessories" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Accessories</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#bestsellers" class="w3-bar-item w3-button">Best Sellers</a>
+    <a href="#uniforms" class="w3-bar-item w3-button">Uniforms</a>
+    <a href="#sparing" class="w3-bar-item w3-button">Sparing</a>
+    <a href="#accessories" class="w3-bar-item w3-button">Accessories</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="banner.jpeg" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Sign Up">CHECK OUT</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container">
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Check out now!</h4>
+      <h5>Why wait? <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Just fill in the form below and you'll be on your way to a happier better life</p>
+      <p>Click the link and you'll be taken to the <a class="w3-text-teal" href="/w3css/default.asp">check out! </a></p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Talbot Martial Arts Academy LTD</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Best Sellers Container -->
+<div class="w3-container w3-padding-64 w3-center" id="bestSellers">
+<h2>Best Sellers</h2>
+
+<div class="w3-row"><br>
+
+<div class="w3-third">
+  <img src="BlackGloves.jpg" style="width:45%" >
+  <h3>Sparing Gloves</h3>
+  <p>£19.99</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+
+<div class="w3-third">
+  <img src="KendoStick.jpg"  style="width:45%" >
+  <h3>Kendo Stick</h3>
+  <p>£45.99</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+
+<div class="w3-third">
+  <img src="kendo.uniform.jpg"  style="width:45%" >
+  <h3>Kendo Uniform</h3>
+  <p>£75.00</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+</div>
+
+<!-- Uniforms Container -->
+<div class="w3-container w3-padding-64 w3-center" id="uniforms">
+<h2>Uniforms</h2>
+
+<div class="w3-row"><br>
+
+<div class="w3-third">
+  <img src="TaekwonDoUniform.jpg" style="width:45%" >
+  <h3>Taekwon-Do Uniform</h3>
+  <p>£35.00</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+
+<div class="w3-third">
+  <img src="AikidoUniform.jpeg"  style="width:45%" >
+  <h3>Aikido Uniform</h3>
+  <p>£45.00</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+
+<div class="w3-third">
+  <img src="kendo.uniform.jpg"  style="width:45%" >
+  <h3>Kendo Uniform</h3>
+  <p>£75.00</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+</div>
+
+<!-- Sparring Container -->
+<div class="w3-container w3-padding-64 w3-center" id="sparing">
+<h2>Sparring</h2>
+
+<div class="w3-row"><br>
+
+<div class="w3-third">
+  <img src="Nunchucks.jpeg" style="width:45%" >
+  <h3>Nunchucks</h3>
+  <p>£25.99</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+
+<div class="w3-third">
+  <img src="KendoStick.jpg"  style="width:45%" >
+  <h3>Kendo Stick</h3>
+  <p>£45.99</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+
+<div class="w3-third">
+  <img src="woodenpolls.jpg"  style="width:45%" >
+  <h3>Dual Wooden Staffs</h3>
+  <p>£15.99</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+</div>
+
+<!-- Accessories Container -->
+<div class="w3-container w3-padding-64 w3-center" id="accessories">
+<h2>Accessories</h2>
+
+<div class="w3-row"><br>
+
+<div class="w3-third">
+  <img src="BlackGloves.jpg" style="width:45%" >
+  <h3>Sparing Gloves</h3>
+  <p>£19.99</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+
+<div class="w3-third">
+  <img src="RedGloves.jpg"  style="width:45%" >
+  <h3>Red Gloves</h3>
+  <p>£22.00</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+
+<div class="w3-third">
+  <img src="BodyVest.jpg"  style="width:45%" >
+  <h3>Body Vest</h3>
+  <p>£35.00</p>
+  <a href="activities.html"class="w3-button w3-teal w3-padding-large">Add To Cart</a>
+</div>
+</div>
+
+<!-- Free Shipping Container-->
+<div class="w3-container w3-padding-64 w3-center" id="freeShipping">
+  <h3>We Offer Free Shipping Within The U.K!</h3>
+</div>
+
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Head round for a round on the mats with the master himself.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Bournemouth, U.K</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i> +04 7961457823</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  DojoMaster@TalbotMartialArtsAcadamey.co.uk</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>Join our mailing list!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Google Maps -->
+<div id="googleMap" style="width:100%;height:420px;"></div>
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(50.742365, -1.8956355);
+  var mapOptions= {
+    center:myCenter,
+    zoom:15, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiewPIejJo601nxtKieoeDunQ4Heh13XM&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
+
+
+
+<!-- END MAIN -->
+</div>
+
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+
+
+</body>
+</html>

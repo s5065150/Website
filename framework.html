@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<title>Talbot Martial Arts Academy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-modal-content{
+  margin:auto;
+  background-color:#fff;
+  background-color: white;
+  position:relative;
+  padding:0;
+  outline:0;
+  width:600px;
+}
+</style>
+<body id="myPage">
+
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#news" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+  <a href="#activities" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Activities</a>
+  <a href="shop1.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Shop</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#news" class="w3-bar-item w3-button">News</a>
+    <a href="#activities" class="w3-bar-item w3-button">Activities</a>
+    <a href="shop1.html" class="w3-bar-item w3-button">Shop</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="banner.jpeg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Sign Up">SIGN UP</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container">
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Sign up now!</h4>
+      <h5>Why wait? <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Just fill in the form below and you'll be on your way to a happier better life</p>
+      <p>Click the link and you'll be taken to the <a class="w3-text-teal" href="signUp.html">sign up </a>form!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Talbot Martial Arts Academy LTD</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>They keep the Dojo running</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="dimitris.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Dimitris Nikomanis</h3>
+  <p>Head of Buisness</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="billy.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Billy Smith</h3>
+  <p>Support</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="euan.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Euan Wilkinson</h3>
+  <p>Martial Arts Master</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="sensei.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Duncan Alger</h3>
+  <p>Sensi</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="rob.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Rob Williamson</h3>
+  <p>Fixer</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="teacher.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Alger Duncan</h3>
+  <p>Teacher</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="man.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Rory Gary</h3>
+  <p>Maintenance</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="event.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Gabby Fitzpatrick</h3>
+  <p>Event Manager</p>
+</div>
+
+</div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" id="intro">
+  <h3>Become a Martial Artist with Talbot Martial Arts Academy</h3>
+  <h4>Self-Defence and Self-Improvement Through Combat and Training</h4>
+  <div class="w3-row"><br>
+    <h3>Who We Are</h3>
+    <p>We are a martial arts school in Talbot, Bournemouth. Our primary focus is on the use of martial arts as a means of meditation, reflection, and self-improvement. We also teach practical applications of the arts we teach, allowing our students to protect themselves and those they care about should the need to do so arise. Founded in 1977 by Sensei Duncan Alger, we specialise in the arts of Jodo, Iaido, and Kenjutsu and are as such certified by the British Kendo Association.</p>
+    <h4>Our Lineage</h4>
+    <p>The school of iaido taught by the Academy is We are a martial arts school in Talbot, Bournemouth. Our primary focus is on the use of martial arts as a means of meditation, reflection, and self-improvement. We also teach practical applications of the arts we teach, allowing our students to protect themselves and those they care about should the need to do so arise. Founded in 1977 by Sensei Duncan Alger, we specialise in the arts of Jodo, Iaido, and Kenjutsu and are as such certified by the British Kendo Association.</p>
+  </div>
+</div>
+
+<!-- News Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="news">
+
+<div class="w3-quarter">
+<h2>News</h2>
+<p>This section of the website will bring a variety of news items daily and from trusted sources within the Dojo. This articles are written by members of the Dojo as well as thier communities. Everything from events and competition results will be documented within this section of the site.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="KidMartialArts.jpg" style="width:100%">
+  <div class="w3-container">
+  <h3>Martial Arts Introduction</h3>
+  <p>On the 12th of December we are offering an introduction lesson welcome to all interested in starting their martial arts journey. The session will start at 6pm</p>
+  <p>This cost of this single session is £5 and no additional equipment is needed. We will show you a variety of techniques you could learn with us as well as learning the basics of a martial art.</p>
+  <p>For any information on our other activities please click <a href="activities.html">here</a> or choose the activities option from the menu</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="http://www.bushidoma.co.uk/martial%20arts%20images/Bushido%20shoguns%20tournament%20team%202014.png"  style="width:100%">
+  <div class="w3-container">
+  <h3>Gold Medal Winners</h3>
+  <p>We are proud to announce that the winner of our 3rd annual tournament is Euan Darksword after climbing through the ranks to defeat Hideo Gashima in the final! He brings great honour to this dojo and you should all weep in the shadow of his greatness</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://i2.wp.com/alchemycombatclub.com/wp-content/uploads/2014/08/the_dojo_by_danilologanlucci-d4su7zp.jpg?resize=1080%2C675"  style="width:100%">
+  <div class="w3-container">
+  <h3>Dojo Maintenance</h3>
+  <p>Unfortunately the dojo will be closed until Christmas. This is due to the master breaking an excessive number of support columns during a demonstration. We thank you all for your  patience as we try to solve this matter.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Activities Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="activities">
+    <h2>Activities</h2>
+    <p>We offer a wide range of classes. All you have to do is find the wright one for you!</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Iaido</p>
+        </li>
+        <li class="w3-padding-16"><b>Swords</b></li>
+        <li class="w3-padding-16"><b>2HRs</b></li>
+        <li class="w3-padding-16"><b>Sunday</b> </li>
+        <li class="w3-padding-16"><b>10AM-12PM</b> </li>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <a href="activities.html"class="w3-button w3-teal w3-padding-large"> Find out more</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Kendo</p>
+        </li>
+        <li class="w3-padding-16"><b>Swords</b></li>
+        <li class="w3-padding-16"><b>2HRs</b></li>
+        <li class="w3-padding-16"><b>Wednesday</b></li>
+        <li class="w3-padding-16"><b>7PM-9PM</b> </li>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <a href="activities.html"class="w3-button w3-teal w3-padding-large"> Find out more</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Jodo</p>
+        </li>
+        <li class="w3-padding-16"><b>Staff</b></li>
+        <li class="w3-padding-16"><b>2HRs</b> </li>
+        <li class="w3-padding-16"><b>Saturday</b> </li>
+        <li class="w3-padding-16"><b>4PM-6PM</b> </li>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <a href="activities.html"class="w3-button w3-teal w3-padding-large"> Find out more</a>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Head round for a round on the mats with the master himself.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Bournemouth, U.K</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i> +04 7961457823</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  DojoMaster@TalbotMartialArtsAcadamey.co.uk</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>Join our mailing list!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Google Maps -->
+<div id="googleMap" style="width:100%;height:420px;"></div>
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(50.742365, -1.8956355);
+  var mapOptions= {
+    center:myCenter,
+    zoom:15, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiewPIejJo601nxtKieoeDunQ4Heh13XM&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
+
+
+
+<!-- END MAIN -->
+</div>
+
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
